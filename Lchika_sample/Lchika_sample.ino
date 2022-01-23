@@ -43,7 +43,6 @@ void loop() {
   y = getAcc(volt_y);
   z = getAcc(volt_z);
 
-
   Serial.println(x);
 
 }
