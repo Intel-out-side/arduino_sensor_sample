@@ -42,6 +42,6 @@ void loop() {
   analogWrite(pwmPin, i);
 
   
-  Serial.println(rawSensorValue);
+  Serial.println(angle);
   delay(10);
 }
