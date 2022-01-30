@@ -8,8 +8,8 @@
 
 const byte DRV8830_WRITE_ADDR = 0xC8>>1;
 const byte DRV8830_READ_ADDR  = 0xC9>>1;
-const byte CONTROL            = 0x00>>1;
-const byte FAULT              = 0x01>>1;
+const byte CONTROL            = 0x00;
+const byte FAULT              = 0x01;
 
 void setup() {
   Serial.begin(19200);
